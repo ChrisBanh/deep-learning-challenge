@@ -33,7 +33,7 @@ Reverted the cutoff values to the first optimisation attempt and adjusted the nu
 
 ![alt text](https://github.com/ChrisBanh/deep-learning-challenge/blob/main/Attempt%204%20Parameter%20Changes.PNG?raw=true)
 
-Maintain cutoff paramters from original run, but also include the NAME feature and added a cutoff for that columns. Used the hidden layer and epoch hyperparamters from the 3rd optimisation attempt. This has a reported accuracy of 78.75% which is higher than the recommended threshold of 75%.
+Maintain cutoff paramters from original run, but also include the NAME feature and added a cutoff for that columns. Used the hidden layer and epoch hyperparamters from the 3rd optimisation attempt. This has a reported accuracy of 78.75% which is higher than the recommended threshold of 75%. The suggestion would be to use a different model which would hopefully yield noticeably different results, that can be separated from the margin of error of multiple runs of the same parameter.
 
 ## Summary
 
