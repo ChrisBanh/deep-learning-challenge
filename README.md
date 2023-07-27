@@ -21,17 +21,17 @@ The initial attempt has a cutoff of 500 for the APPLICATION_TYPE and 1000 for th
 
 ![alt text](https://github.com/ChrisBanh/deep-learning-challenge/blob/main/Attempt%201%20Parameter%20Changes.PNG?raw=true)
 
-Attempt no 2 minimised the number of cutoff values to incorporate more data into the evaluation. Increased the number of hidden layers within the model hopefully to achieve a higher target model performance. The accuracy rating for this is recorded at 72.56% for this particular run. 
+Optimisation attempt no. 1 minimised the number of cutoff values to incorporate more data into the evaluation. Increased the number of hidden layers within the model hopefully to achieve a higher target model performance. The accuracy rating for this is recorded at 72.56% for this particular run. 
 
-![Screenshot](Optimisation attempt 2 Parameter Changes.PNG)
+![alt text](https://github.com/ChrisBanh/deep-learning-challenge/blob/main/Attempt%202%20Parameter%20Changes.PNG?raw=true)
 
-Increased the cutoff for both the APPLICATION_TYPE and CLASSIFICAITON Columns and doubled the number of Epochs to 200. The accuracy rating is recorded at 72.38%. This is lower than the initial run.
+Increased the cutoff for both the APPLICATION_TYPE and CLASSIFICAITON Columns and doubled the number of Epochs to 200 as latter epoch runs yields a higher accuracy rating. However the overall, accuracy rating is recorded at 72.38% for this run. This is lower than the initial run.
 
-![Screenshot](Optimisation attempt 3 Parameter Changes.PNG)
+![alt text](https://github.com/ChrisBanh/deep-learning-challenge/blob/main/Attempt%203%20Parameter%20Changes.PNG?raw=true)
 
 Reverted the cutoff values to the first optimisation attempt and adjusted the number of neurons in each layer. Change the activation function for the 3rd hidden layer to tanh. Output accuracy is recorded at 72.33%, still lower than the original run. 
 
-![Screenshot](Optimisation attempt 4 Parameter Changes.PNG)
+![alt text](https://github.com/ChrisBanh/deep-learning-challenge/blob/main/Attempt%204%20Parameter%20Changes.PNG?raw=true)
 
 Maintain cutoff paramters from original run, but also include the NAME feature and added a cutoff for that columns. Used the hidden layer and epoch hyperparamters from the 3rd optimisation attempt. This has a reported accuracy of 78.75% which is higher than the recommended threshold of 75%.
 
